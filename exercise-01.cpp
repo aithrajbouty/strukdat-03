@@ -12,6 +12,19 @@ typedef struct{
     float panjang;
     float lebar;
 } segiempat;
+void input(segiempat *s);
+float keliling(segiempat s);
+float luas(segiempat s);
+float diagonal(segiempat s);
+void print(segiempat s);
+
+int main()
+{
+    segiempat* s;
+    s = new segiempat;
+    input(s);
+    print(*s);
+}
 
 void input(segiempat *s){
     cout << "Input panjang  : "; cin >> s->panjang;
@@ -39,12 +52,4 @@ void print(segiempat s){
     cout << "\nkeliling   : " << keliling(s);
     cout << "\nluas       : " << luas(s);
     cout << "\ndiagonal   : " << diagonal(s);
-}
-
-int main()
-{
-    segiempat* s;
-    s = new segiempat;
-    input(s);
-    print(*s);
 }
