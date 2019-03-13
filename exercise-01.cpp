@@ -1,7 +1,7 @@
 /*
 Author      : Aithra Junia Bouty
 NPM         : 140810180054
-Deskripsi   :
+Deskripsi   : meng-output hasil panjang, lebar, keliling, luas, dan diagonal dengan menggunakan pointer
 Tahun       : 2019
 */
 #include <iostream>
